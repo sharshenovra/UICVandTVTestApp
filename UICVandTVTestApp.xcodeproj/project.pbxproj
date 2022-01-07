@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6049F82127888A760074AD2C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6049F82027888A760074AD2C /* CustomButton.swift */; };
+		6049F823278891300074AD2C /* NamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6049F822278891300074AD2C /* NamesCell.swift */; };
 		6056AD1E278878A700AFA891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056AD1D278878A700AFA891 /* AppDelegate.swift */; };
 		6056AD20278878A700AFA891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056AD1F278878A700AFA891 /* SceneDelegate.swift */; };
 		6056AD22278878A700AFA891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056AD21278878A700AFA891 /* ViewController.swift */; };
 		6056AD25278878A700AFA891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6056AD23278878A700AFA891 /* Main.storyboard */; };
 		6056AD27278878A800AFA891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6056AD26278878A800AFA891 /* Assets.xcassets */; };
 		6056AD2A278878A800AFA891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6056AD28278878A800AFA891 /* LaunchScreen.storyboard */; };
+		B4C442339A0627019AE86BD2 /* Pods_UICVandTVTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED4CAF25DB9ADF5F0EB1BCD /* Pods_UICVandTVTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ED4CAF25DB9ADF5F0EB1BCD /* Pods_UICVandTVTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UICVandTVTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24538469C9ADAB2DD5BDEC2D /* Pods-UICVandTVTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICVandTVTestApp.release.xcconfig"; path = "Target Support Files/Pods-UICVandTVTestApp/Pods-UICVandTVTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		6049F82027888A760074AD2C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		6049F822278891300074AD2C /* NamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesCell.swift; sourceTree = "<group>"; };
 		6056AD1A278878A700AFA891 /* UICVandTVTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICVandTVTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6056AD1D278878A700AFA891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6056AD1F278878A700AFA891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		6056AD26278878A800AFA891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6056AD29278878A800AFA891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6056AD2B278878A800AFA891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B981B6223C0CAF5230F0E8B0 /* Pods-UICVandTVTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICVandTVTestApp.debug.xcconfig"; path = "Target Support Files/Pods-UICVandTVTestApp/Pods-UICVandTVTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4C442339A0627019AE86BD2 /* Pods_UICVandTVTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				6056AD1C278878A700AFA891 /* UICVandTVTestApp */,
 				6056AD1B278878A700AFA891 /* Products */,
+				8A4C120B8B1E136A53A350A9 /* Pods */,
+				F5BF06EBDA7FFED14264E892 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +74,27 @@
 				6056AD26278878A800AFA891 /* Assets.xcassets */,
 				6056AD28278878A800AFA891 /* LaunchScreen.storyboard */,
 				6056AD2B278878A800AFA891 /* Info.plist */,
+				6049F82027888A760074AD2C /* CustomButton.swift */,
+				6049F822278891300074AD2C /* NamesCell.swift */,
 			);
 			path = UICVandTVTestApp;
+			sourceTree = "<group>";
+		};
+		8A4C120B8B1E136A53A350A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B981B6223C0CAF5230F0E8B0 /* Pods-UICVandTVTestApp.debug.xcconfig */,
+				24538469C9ADAB2DD5BDEC2D /* Pods-UICVandTVTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5BF06EBDA7FFED14264E892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ED4CAF25DB9ADF5F0EB1BCD /* Pods_UICVandTVTestApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6056AD2E278878A800AFA891 /* Build configuration list for PBXNativeTarget "UICVandTVTestApp" */;
 			buildPhases = (
+				75F5C52C58DF3EDC428C9DF2 /* [CP] Check Pods Manifest.lock */,
 				6056AD16278878A700AFA891 /* Sources */,
 				6056AD17278878A700AFA891 /* Frameworks */,
 				6056AD18278878A700AFA891 /* Resources */,
+				D6C012B7013C8071EB94A1F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +165,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75F5C52C58DF3EDC428C9DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UICVandTVTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C012B7013C8071EB94A1F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UICVandTVTestApp/Pods-UICVandTVTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UICVandTVTestApp/Pods-UICVandTVTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UICVandTVTestApp/Pods-UICVandTVTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6056AD16278878A700AFA891 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6049F82127888A760074AD2C /* CustomButton.swift in Sources */,
+				6049F823278891300074AD2C /* NamesCell.swift in Sources */,
 				6056AD22278878A700AFA891 /* ViewController.swift in Sources */,
 				6056AD1E278878A700AFA891 /* AppDelegate.swift in Sources */,
 				6056AD20278878A700AFA891 /* SceneDelegate.swift in Sources */,
@@ -284,6 +360,7 @@
 		};
 		6056AD2F278878A800AFA891 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B981B6223C0CAF5230F0E8B0 /* Pods-UICVandTVTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +389,7 @@
 		};
 		6056AD30278878A800AFA891 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24538469C9ADAB2DD5BDEC2D /* Pods-UICVandTVTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
